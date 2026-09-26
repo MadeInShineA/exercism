@@ -27,6 +27,9 @@
             haskellPackages.haskell-language-server
             exercism
             stack
+            gcc
+            cmake
+            boost
           ];
         };
       }

@@ -21,6 +21,14 @@ dist-newstyle/
 # Cabal
 cabal.project.local
 
+# C++ / CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
 # OS
 .DS_Store
 Thumbs.db
