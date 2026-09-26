@@ -1,0 +1,26 @@
+# Nix
+.direnv/
+result
+
+# Haskell / Stack
+.stack-work/
+dist/
+dist-newstyle/
+
+# Haskell build artifacts
+*.o
+*.hi
+*.iface
+*.dyn_o
+*.dyn_hi
+
+# Haskell IDE
+.hie/
+.haskell-ide-engine/
+
+# Cabal
+cabal.project.local
+
+# OS
+.DS_Store
+Thumbs.db
