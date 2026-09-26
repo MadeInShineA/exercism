@@ -30,6 +30,7 @@
             gcc
             cmake
             boost
+            clang-tools
           ];
         };
       }

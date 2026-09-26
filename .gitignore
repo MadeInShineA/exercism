@@ -2,6 +2,9 @@
 .direnv/
 result
 
+# Exercism
+.exercism/
+
 # Haskell / Stack
 .stack-work/
 dist/
@@ -23,11 +26,18 @@ cabal.project.local
 
 # C++ / CMake
 CMakeCache.txt
-CMakeFiles/
+**/CMakeFiles/
 Makefile
 cmake_install.cmake
 *.cmake
 !CMakeLists.txt
+a.out
+*.exe
+build/
+*.o
+*.obj
+cpp/hello-world/hello-world
+cpp/lasagna/lasagna
 
 # OS
 .DS_Store
