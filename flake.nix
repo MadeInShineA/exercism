@@ -33,7 +33,7 @@
             clang-tools
             gleam
             erlang
-            nodejs
+            rebar3
           ];
         };
       }
