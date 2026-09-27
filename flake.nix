@@ -31,6 +31,9 @@
             cmake
             boost
             clang-tools
+            gleam
+            erlang
+            nodejs
           ];
         };
       }
